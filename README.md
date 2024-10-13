@@ -98,3 +98,4 @@ If amd64 builds are too slow on your Mac (likely), consider using a remote build
 docker buildx create --name=remote-amd64 --driver=docker-container ssh://<my-amd64-host>
 BUILD_ARGS="--builder=remote-amd64 --load" ./terraform/deploy-dev.sh
 ```
+cool m
